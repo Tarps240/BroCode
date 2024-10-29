@@ -1,13 +1,15 @@
-// React hook = Special function that allows functional components      to use React features without writing class components (React v16.8) (useState, useEffect, useContext, useReducer, useCallback, and more...)
+// How to style react components with CSS
+//---------------------------------------
+// (not including external frameworks or preprocessors)
 
-// useState() = A React hook that allows the creation of a stateful variable and a setter function to update its value in the virtual DOM.
-// [name, setName]
+// 1. External
+// 2. Modules
+// 3. Inline
 
-
-
+import Button from './Button/Button.jsx';
 function App() {
 
-    return(<></>);
+    return(<><Button /></>);
 }
 
 export default App
